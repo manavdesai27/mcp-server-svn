@@ -17,12 +17,12 @@ from .tools.switch import svn_switch
 from .tools.list_branches import svn_list_branches
 from .tools.create_branch import svn_create_branch
 from .tools.delete_branch import svn_delete_branch
-from .tools.svn_cleanup import svn_cleanup
-from .tools.svn_revert import svn_revert
-from .tools.svn_merge import svn_merge
-from .tools.svn_resolve import svn_resolve
-from .tools.svn_whoami import svn_whoami
-from .tools.svn_version import svn_version
+from .tools.cleanup import svn_cleanup
+from .tools.revert import svn_revert
+from .tools.merge import svn_merge
+from .tools.resolve import svn_resolve
+from .tools.whoami import svn_whoami
+from .tools.version import svn_version
 
 server = FastMCP("svn")
 
