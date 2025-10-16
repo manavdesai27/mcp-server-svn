@@ -40,6 +40,3 @@ jobs:
       # Publish to PyPI using API token
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
-        with:
-          user: __token__                       # Required for PyPI token
-          password: ${{ secrets.PYPI_API_TOKEN }}  # Your PyPI API token stored as a secret
